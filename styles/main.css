@@ -97,7 +97,7 @@ body {
     justify-content: center;
 }
 .nav1__el:nth-child(4) {
-    border-bottom: 2px solid2 - patrzy³am na illustratora - tam by³y przerwy - mogê to zmieniæ, ale moim zdaniem to bêdzie chujowe tj. nie bêdzie wiadomo w którym miejscu siê koñczy przycisk - mo¿e daæ bardziej cienki i jaœniejsze linie? #343434;
+    /*border-bottom: 2px #343434;*/
 }
 
 .nav1__el a {
