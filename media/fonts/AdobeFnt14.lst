@@ -1,0 +1,41 @@
+%!Adobe-FontList 1.14
+%Locale:0x415
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArchivoBlack-Regular
+FamilyName:Archivo Black
+StyleName:Regular
+FullName:Archivo Black Regular
+MenuName:Archivo Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\G\Desktop\Moje WWW\Font\ArchivoBlack-Regular.ttf
+DataFormat:sfntData
+FileLength:129848
+FileModTime:1448393353
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PRIMETIME-Regular
+FamilyName:PRIMETIME
+StyleName:Regular
+FullName:PRIMETIME Regular
+MenuName:PRIMETIME
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\G\Desktop\Moje WWW\Font\PRIMETIME Ş PERSONAL USE ONLY.ttf
+DataFormat:sfntData
+FileLength:111588
+FileModTime:1448393512
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
