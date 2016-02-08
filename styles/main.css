@@ -78,10 +78,13 @@ body {
     width: 100%;
     /*display:block;*/
     padding: 0;
+    z-index: 998;
+
 }
 
 .nav1.open {
     display:block;
+    z-index: 997;
 }
 
 .nav1__el {
