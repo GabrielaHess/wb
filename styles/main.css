@@ -19,7 +19,7 @@ html {
 
 @font-face {
     font-family: "myFirstFont";
-    src: url(/media/fonts/ArchivoBlack-Regular.ttf);
+    src: url(../media/fonts/ArchivoBlack-Regular.ttf);
 }
 
 body {
@@ -111,7 +111,7 @@ body {
     color: white;
 }
 .background1 {
-    background-image: url("/media/images/background.png");
+    background-image: url("../media/images/background.png");
     background-size: cover;
     width: 100%;
     height: 493px;
@@ -340,7 +340,7 @@ body {
     /*height: 100%;*/
 }
 .background2 {
-    background-image: url("/media/images/background.png");
+    background-image: url("../media/images/background.png");
     background-size: cover;
     width: 100%;
     /*height: 493px;*/
