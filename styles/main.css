@@ -142,6 +142,7 @@ body {
     width: 75%;
     border: 2px solid white;
     margin-bottom: 100px;
+    padding-top: 4px;
 }
 
 .main__text p {
