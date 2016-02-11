@@ -229,10 +229,12 @@ a {
   font-size: 30px;
   height: 50px;
   text-align: center;
-  width: 75%;
+  width: 100%;
   border: 2px solid white;
   margin-bottom: 100px;
   padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
   @media screen and (min-width: 1024px) {
     width: 300px;
     font-size: 40px;
