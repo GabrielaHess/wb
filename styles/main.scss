@@ -35,9 +35,14 @@ html {
   src: url(../media/fonts/ArchivoBlack-Regular.ttf);
 }
 
+//@font-face {
+//  font-family: "mainFont";
+//  src: url();
+//}
+
 body {
   margin: 0;
-  font-family: Tahoma, sans-serif;
+  font-family: Lato, sans-serif;
   height: 100%;
 }
 
@@ -154,14 +159,13 @@ a {
     text-transform: capitalize;
     border: solid 2px white;
     margin: auto 5px;
-    padding: 0 4px;
+    padding: 0 7px;
     height: 35px;
   }
 }
 
 .nav1__el a {
   font-size: 18px;
-  /*width: 100%;*/
   text-decoration: none;
   color: #343434;
   font-weight: bold;
@@ -169,6 +173,10 @@ a {
   @media screen and (min-width: 1024px) {
     font-weight: normal;
     width: auto;
+    //&:hover {
+    //  color: rgba(115, 115, 115, 0.8);
+    //
+    //}
   }
 }
 
@@ -176,8 +184,8 @@ a {
   background-color: #343434;
   @media screen and (min-width: 1024px) {
     background-color: white;
-    border: solid 2px #3C948B;
-    padding: 0 4px;
+    //border: solid 2px white;
+    border-bottom: solid 1px black;
     //color: #343434;
   }
 }
@@ -185,7 +193,7 @@ a {
 .nav1__el:hover a {
   color: white;
   @media screen and (min-width: 1024px) {
-    color: #343434;
+    color: rgba(115, 115, 115, 0.8);
   }
 }
 
@@ -568,8 +576,8 @@ a {
 .contact_text_margin {
   margin-top: 35px;
   @media screen and (min-width: 1024px) {
-    margin-top: 18px;
-    margin-bottom: 35px;
+    margin-top: 21px;
+    margin-bottom: 1px;
   }
 
 }
