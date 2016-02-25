@@ -442,7 +442,7 @@ a {
   float: left;
   /*display: inline-block;*/
   color: #3C948B;
-  margin: 2% 1%;
+  margin: 2% 2%;
   font-size: 13px;
   /*text-align: center;*/
   @media screen and (min-width: 1024px) {
@@ -965,21 +965,21 @@ footer p {
   text-align: justify;
   border-bottom: solid 1px #c7c7c7;
   border-top: solid 1px #c7c7c7;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   @media screen and (min-width: 1024px) {
     font-size: 15px;
     border-bottom: solid 2px #c7c7c7;
     border-top: solid 2px #c7c7c7;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     font-size: 12px;
     //border-bottom: solid 2px #c7c7c7;
     //border-top: solid 2px #c7c7c7;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 
