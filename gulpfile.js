@@ -35,6 +35,7 @@ gulp.task('watch', function () {
     gulp.watch(['templates/**/*.html', 'templates/*.html'], ['reload']);
     gulp.watch(['media/images/*'], ['pure_reload']);
     gulp.watch(['styles/*.scss'], ['sass']);
+    gulp.watch(['scripts/*.js'], ['pure_reload']);
 
 });
 

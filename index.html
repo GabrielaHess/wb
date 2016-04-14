@@ -14,10 +14,10 @@
 <div class="main">
     <nav class="xl_col-5 nav1_xl">
         <ul class="nav1" id="mainMenu">
-            <li class="nav1__el"><a href="#" title="HOME">Home</a></li>
-            <li class="nav1__el"><a href="#" title="PORTFOLIO">Portfolio</a></li>
-            <li class="nav1__el"><a href="#" title="ABOUT ME">About me</a></li>
-            <li class="nav1__el"><a href="#" title="CONTACT">Contact</a></li>
+            <li class="nav1__el"><a href="#home" title="HOME">Home</a></li>
+            <li class="nav1__el"><a href="#portfolio" title="PORTFOLIO">Portfolio</a></li>
+            <li class="nav1__el"><a href="#about_me" title="ABOUT ME">About me</a></li>
+            <li class="nav1__el"><a href="#contact" title="CONTACT">Contact</a></li>
         </ul>
     </nav>
     <div class="col-3 lan xl_col-1 med_col-3">
@@ -40,7 +40,7 @@
 </div>
 
 
-<div class="main-site background1 margin">
+<div id="home" class="main-site background1 margin">
     <div class="main__text">
         <p>GRAPHICS</p>
         <p>ILLUSTRATIONS</p>
@@ -51,8 +51,7 @@
     <a class="button" href="#">PORTFOLIO</a>
 </div>
 
-<div>
-
+<div id="portfolio" class="portfolio">
     <div class="title">PORTFOLIO</div>
     <div class="line"> </div>
 
@@ -60,115 +59,75 @@
         <div class="col-10 xl_col-5 med_col-6">
             <nav class="nav2">
                 <ul class="nav_ul">
-                    <li class="nav2__el"><a href="#" title="All">All</a></li>
+                    <li class="nav2__el"><a href="#portfolio" data-category="all" title="All">All</a></li>
                     <p class="nav2__el">|</p>
-                    <li class="nav2__el"><a href="#" title="Illustrations">Illustrations</a></li>
+                    <li class="nav2__el"><a href="#portfolio" data-category="illustrations" title="Illustrations">Illustrations</a></li>
                     <p class="nav2__el">|</p>
-                    <li class="nav2__el"><a href="#" title="Games">Games</a></li>
+                    <li class="nav2__el"><a href="#portfolio" data-category="games" title="Games">Games</a></li>
                     <p class="nav2__el">|</p>
-                    <li class="nav2__el"><a href="#" title="Other">Other</a></li>
+                    <li class="nav2__el"><a href="#portfolio" data-category="other" title="Other">Other</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 
 
-    <div class="row margin_xl">
-        <div class="xl_col-2">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/1_min.png">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/2_min.png">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/3_min.png">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/4_min.png">
-        </div>
-        <div class="xl_col-2">
-        </div>
-
-        <div class="xl_col-2">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/5_min.png">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/6_min.png">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/1_min.png">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/2_min.png">
-        </div>
-        <div class="xl_col-2">
-        </div>
-
-        <div class="xl_col-2">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/3_min.png">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/4_min.png">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/5_min.png">
-        </div>
-        <div class="col-6 xl_col-2 med_col-4">
-            <img class="img__min" src="media/images/illustration/6_min.png">
-        </div>
-        <div class="xl_col-2">
-        </div>
+    <div class="row5 margin_xl portfolio__imgs" id="portfolio-min">
     </div>
+
     <div class="space">
     </div>
 
 </div>
-<div>
-        <a href="#"><div class="port_color">
-        <div class="col-1 ">
-            <div class="port_arrow">
+
+<div id="port_el">
+
+    <div class="port_color">
+            <div class="port_arrow" id="prev_img">
                 <div class="port_arrow_left"></div>
             </div>
-        </div></a>
-        <div class="col-8 xl_col-6 med_col-7">
-            <p class="port_text">STEAM-NOIR</p>
-            <p class="port_text1">VECTOR GRAPHICS</p>
+        <div class="col-8 xl_col-8 med_col-8">
+            <p class="port_text"></p>
+            <p class="port_text1"></p>
         </div>
-    <a href="#"><div class="col-1">
-            <div class="port_arrow">
+            <div class="port_arrow" id="next_img">
                 <div class="port_arrow_right"></div>
             </div>
-        </div></a>
     </div>
 
-    <div class="row">
-        <div class="col-11 med_col-11">
-            <img class="port_img" src="media/images/illustration/steam-noir/1.png">
-        </div>
+    <div id="main-img">
+
     </div>
+
+    <!--<div class="row">-->
+        <!--<div class="col-11 med_col-11">-->
+            <!--<img class="port_img" src="media/images/illustrations/steam-noir/1.png">-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="row">-->
+        <!--<div class="col-11 med_col-11">-->
+            <!--<img class="port_img" src="media/images/illustrations/steam-noir/1.png">-->
+        <!--</div>-->
+    <!--</div>-->
 
     <div class="row">
         <p class="port_text2 xl_col-10 med_col-10">Description of the project</p>
         <p class="col-11 port_text3 xl_col-10 med_col-10">
-            Lorem ipsum dolor sit amet, a at, suscipit mollis arcu. Proin quis arcu in nibh bibendum sagittis. Phasellus efficitur mi a bibendum semper. Etiam pellentesque lacus nibh, et maximus ipsum sollicitudin sit amet. Praesent dui nulla, dapibus sed turpis nec, consectetur hendrerit velit. Curabitur eget dapibus nulla. Fusce tincidunt vulputate neque eget vestibulum. Nam eu ante massa. Donec eget nulla risus.
         </p>
     </div>
-    <div class="port_end">
+    <a class="port_end" href="#portfolio">
         <div class="port_end_cross1"></div>
         <div class="port_end_cross2"></div>
-    </div>
+    </a>
 </div>
-<div class="background2">
+
+<div id="about_me" class="background2">
 
     <div class="title_white">ABOUT ME</div>
     <div class="line_white"></div>
     <div class="row">
+        <!--<div class="xl_col-1"></div>-->
         <div class="col-5 xl_col-2 med_col-2">
             <img class="me_img" src="media/images/me.jpg">
         </div>
@@ -177,30 +136,21 @@
             </div>
             <div class="text_me">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae orci ligula. Aenean ac augue
-                    aliquam, commodo tortor vitae, cursus quam. Proin et consequat elit. Nam lobortis ex eu elit blandit,
-                    nec ornare ex ornare. Quisque dictum eleifend sapien vel volutpat. Cras dictum tempor varius. Curabitur
-                    vitae massa blandit, porta turpis quis, tristique ligula. Curabitur id lectus velit. Fusce pulvinar
-                    dignissim lacus vel commodo. Nunc varius neque vel condimentum dictum. Morbi dignissim vel enim vel
-                    gravida. Proin sit amet augue id felis tristique scelerisque.
+                    I have graduated from School of Graphic Design – Globlife where I got a degree of licensed computer
+                    graphic designer. Moreover I am an absolvent of Ignatianum Academy – Culture studies with Media
+                    specialization. I live and work in Cracow.
                 </p>
-
-                <p> Suspendisse posuere neque quis hendrerit commodo. Quisque vitae vestibulum massa. Fusce rhoncus, ante
-                    vehicula scelerisque aliquam, dolor nisl elementum felis, in fringilla elit odio ac sem. Interdum et
-                    malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per
-                    conubia nostra, per inceptos himenaeos. Donec quis ligula eleifend, pellentesque eros a, pellentesque
-                    lacus. Sed gravida dui leo, a aliquet arcu imperdiet in. Donec convallis, leo ac accumsan vestibulum,
-                    felis ante sollicitudin felis, ut consequat orci sapien et sem. Pellentesque laoreet felis a ligula
-                    aliquam ullamcorper. Nam imperdiet lorem eget massa porta cursus. Cras ultricies et ipsum in auctor. Ut
-                    lorem purus, tincidunt quis dolor non, consequat bibendum purus. Nulla sed condimentum neque.
+                <p> I specialize in graphic design, illustrations and video games animation which are not only the way
+                    to make a living but also – what is the most essential – my biggest passion. In addition I am
+                    creating visual identifications, mobile applications and all sort of print materials.
                 </p>
-
                 <p>
-                    Vivamus nulla justo, rhoncus in ultricies eu, vulputate sit amet libero. Donec interdum lacus quis
-                    auctor dignissim. Nam elementum augue id augue accumsan convallis. Aliquam vel massa sem. Vestibulum
-                    posuere ultrices augue, lacinia tincidunt diam. Nullam faucibus mauris mi, non auctor nunc faucibus vel.
-                    Quisque risus libero, tempus eu lorem sit amet, fringilla posuere elit. Mauris fermentum tincidunt
-                    facilisis. Mauris hendrerit volutpat sapien tincidunt blandit.
+                    In my work I attach great attention to details and I am taking full responsibility for individual
+                    character and precise implementation of every project. I am offering professional consulting and
+                    realization starting from the idea and finishing on the final design.
+                </p>
+                <p>
+                    If you have any questions fell free to contact me.
                 </p>
             </div>
 
@@ -210,7 +160,8 @@
 
 
 </div>
-<div class="row4">
+
+<div id="contact" class="row4">
     <form class="xl_col-7">
 
         <p class="contact_text">CONTACT FORM</p>
@@ -344,6 +295,7 @@
 </footer>
 
 
+<script src="scripts/lodash.min.js"></script>
 <script src="vendors/jquery.min.js"></script>
 <script src="scripts/main.js"></script>
 
