@@ -97,8 +97,8 @@ var portfolio = [
     },
     {
         category: 'illustrations',
-        minImg: 'Phantom/320min.png',
-        url: ['Phantom/1.png'],
+        minImg: 'phantom/320min.png',
+        url: ['phantom/1.png'],
         title: 'phantom',
         subtitle: 'Illustration',
         description: ''
