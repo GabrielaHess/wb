@@ -18,7 +18,7 @@ var portfolio = [
     {
         category: 'games',
         minImg: 'space_student/320min.png',
-        url: ['space_student/1.Menu_glowne-01.png', 'space_student/2.Menu_buy_character.png', 'space_student/3.Menu_crash-01.png', 'space_student/4.lot_gif.gif'],
+        url: ['space_student/1.Menu_glowne-01.png', 'space_student/2.Menu_buy_character.png', 'space_student/3.Menu_crash-01.png', 'space_student/4.lot_gif.gif','space_student/5.Crash.gif', 'space_student/6.Przeszkody.png'],
         title: 'Space Student',
         subtitle: 'Mobile Game',
         description: 'Space Student is casual mobile game for Android and iOS systems.'
