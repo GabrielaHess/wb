@@ -37,7 +37,7 @@ var portfolio = [
         url: ['lion/1.jpg', 'lion/2.jpg'],
         title: 'Lion',
         subtitle: 'low poly illustration',
-        description: 'No description.'
+        description: ''
     },
     {
         category: 'illustrations',
@@ -101,7 +101,7 @@ var portfolio = [
         url: ['phantom/1.png'],
         title: 'phantom',
         subtitle: 'Illustration',
-        description: 'No description.'
+        description: ''
     },
     {
         category: 'illustrations',
@@ -114,7 +114,7 @@ var portfolio = [
     {
         category: 'other',
         minImg: 'land_of_loess_gorges/320min.png',
-        url: ['land_of_loess_gorges/1.png','land_of_loess_gorges/2.png','land_of_loess_gorges/3.png','land_of_loess_gorges/4.png'],
+        url: ['land_of_loess_gorges/1.png','land_of_loess_gorges/2.png','land_of_loess_gorges/3.png'],
         title: 'A Land Of Loess Gorges',
         subtitle: 'Aplication Project',
         description: 'Tourist mobile application for Android system.'
@@ -170,7 +170,7 @@ var portfolio = [
     {
         category: 'other',
         minImg: 'posters/320min.png',
-        url: ['posters/1.jpg','posters/2.jpg','posters/3.jpg'],
+        url: ['posters/1.jpg','posters/2.jpg','posters/3.png'],
         title: 'posters',
         subtitle: '',
         description: "Poster projects for cultural events."
@@ -181,7 +181,7 @@ var portfolio = [
         url: ['elephantman/1.jpg'],
         title: 'elephantman',
         subtitle: 'collage',
-        description: 'No description.'
+        description: ''
     },
     {
         category: 'illustrations',
@@ -189,7 +189,7 @@ var portfolio = [
         url: ['samurai/1.jpg'],
         title: 'samurai',
         subtitle: 'vector graphic',
-        description: 'No description.'
+        description: ''
     },
     {
         category: 'other',
